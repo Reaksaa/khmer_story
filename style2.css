@@ -1,0 +1,61 @@
+header {
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  background: linear-gradient(#ff9500, #f8d700);
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  background: linear-gradient(#ffdd00, #ff8989, gray );
+}
+.container {
+  background-color: rgb(255, 166, 49);
+  display: flex;
+  flex-direction: column;
+  max-width: 170px;
+  border-radius: 10px;
+  margin: 40px auto;
+  align-items: left;
+  padding: 10px;
+}
+
+.container p {
+  font-family: 'Battambang', cursive;
+  background-color: rgb(255, 198, 124);
+  border-radius: 10px;
+  padding: 9px;
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.container a:hover {
+  text-decoration: none;
+  margin-left: 20px;
+}
+.container a {
+  text-decoration: none;
+  color: black;
+  margin-left: 10px;
+  transition: 0.3s all ease;
+}
+
+.writing {
+  max-width: 100%;
+  text-align: justify;
+  font-family: 'Battambang', cursive;
+  font-size: 18px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  line-height: 1.8;
+}
+
+footer {
+  font-family: 'Battambang', cursive;
+  margin-top: 100px;
+  text-align: center;
+}
